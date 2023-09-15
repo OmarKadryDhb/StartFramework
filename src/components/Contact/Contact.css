@@ -1,0 +1,41 @@
+#Contact-comp{
+    height: 85vh;
+    background-color: white;
+}
+#Contact-comp .container{
+    width: 55%;
+}
+#Contact-comp .container h1{
+    position:relative;
+}
+#Contact-comp .container h1::before{
+    position:absolute;
+    content: "";
+    width: 80px;
+    height: 4px;
+    left: 40%;
+    bottom: -40%;
+    background-color: black;
+}
+#Contact-comp .container h1::after{
+    position:absolute;
+    content: "";
+    width: 80px;
+    height: 4px;
+    left: 55%;
+    bottom: -40%;
+    background-color: black;
+}
+#Contact-comp .container i{
+    transform: translateX(515px);
+    margin-bottom: 80px;
+}
+#Contact-comp input{
+    border-bottom: 1px solid slategrey;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+#Contact-comp button{
+    background-color: #1ABC9C;
+}

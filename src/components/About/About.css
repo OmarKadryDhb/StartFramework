@@ -1,0 +1,31 @@
+main{
+    background-color: #1abc9c;
+    height: 85vh;
+}
+main .container{
+    width: 60%;
+}
+main .container h1{
+    position:relative;
+}
+main .container h1::before{
+    position:absolute;
+    content: "";
+    width: 90px;
+    height: 4px;
+    left: 20%;
+    bottom: -40%;
+    background-color: white;
+}
+main .container h1::after{
+    position:absolute;
+    content: "";
+    width: 90px;
+    height: 4px;
+    left: 60%;
+    bottom: -40%;
+    background-color: white;
+}
+main .container i{
+    transform: translateX(190px);
+}
